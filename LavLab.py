@@ -114,7 +114,7 @@ def main():
                 word()
         elif (Sarkari) == '7':
                 up()
-        elif (Sarkari) == '9':
+        elif (Sarkari) == '8':
                 whois()
         elif (Sarkari) == '0':
                 exit()
