@@ -26,6 +26,8 @@ git clone https://github.com/LavSarkari/LavLab_Famework/
 cd LavLab_Famework
 bash setup.sh
 ```
+[Now you can run it by Typing `LavSarkari`]
+
 *For Linux*
 ```
 apt install git -y
