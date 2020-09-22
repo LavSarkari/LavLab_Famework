@@ -21,7 +21,7 @@ def ip():
         print(f"Your Hostname: {hostname}")
         print(f"Your LocalHost: {ip_address}")
         print('_________________________________')
-os.chdir('core')
+os.chdir('/data/data/com.termux/files/home/LavLab_Famework/core')
 
 def about():
         about=p+'''
