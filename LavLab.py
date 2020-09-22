@@ -28,8 +28,8 @@ def about():
 ####################################################                                                                                                   
 # Tool Name     : LavLab Famework                  #
 # Author        : LavSarkari                       #
-# Github        : https//:github/LavSarkari        #
-# Instagram     : https//:instagram/lav_sarkari    #
+# Github        : https://github/LavSarkari        #
+# Instagram     : https://instagram/lav_sarkari    #
 ####################################################
 '''
 
