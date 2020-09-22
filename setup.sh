@@ -7,8 +7,8 @@ clear
 figlet Installation Completed...
 
 echo '#####################################'
-echo '# To Run just Type [LavSarkari]     #'
+echo '# To Run just Type [ LavSarkari ]   #'
 echo '# From anywhere of your terminal.   #'
 echo '#####################################'
 
-Figlet To Run just Type [LavSarkari]  
+figlet To Run just Type [ LavSarkari ]  
