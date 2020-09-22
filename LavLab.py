@@ -86,8 +86,8 @@ def Main_Menu():
         print (w+"{"+p+"4"+w+"} IP Location")
         print (w+"{"+p+"5"+w+"} Admi Panel Finder")
         print (w+"{"+p+"6"+w+"} WordList Genreator")
-        print (w+"{"+p+"7"+w+"} Update")
-        print (w+"{"+p+"8"+w+"} Whoos Lookup")
+        print (w+"{"+p+"7"+w+"} Whoos Lookup")
+        print (w+"{"+p+"8"+w+"} Update")
         print (w+"{"+p+"9"+w+"} About us")
         print (w+"{"+p+"0"+w+"} Exit")
         ip()
@@ -112,9 +112,9 @@ def main():
                 about()
         elif (Sarkari) == '6':
                 word()
-        elif (Sarkari) == '7':
-                up()
         elif (Sarkari) == '8':
+                up()
+        elif (Sarkari) == '7':
                 whois()
         elif (Sarkari) == '0':
                 exit()
