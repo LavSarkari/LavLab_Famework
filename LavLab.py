@@ -25,7 +25,8 @@ os.chdir('core')
 
 def about():
         about=p+'''
-####################################################                                                                                                   # Tool Name     : LavLab Famework                  #
+####################################################                                                                                                   
+# Tool Name     : LavLab Famework                  #
 # Author        : LavSarkari                       #
 # Github        : https//:github/LavSarkari        #
 # Instagram     : https//:instagram/lav_sarkari    #
