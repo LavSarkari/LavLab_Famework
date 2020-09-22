@@ -35,6 +35,10 @@ def about():
 
         print(about)
         main()
+def whois():
+        url= input(R+'[+]Target Website: '+G)
+        os.system('whois %s' %(url))
+        main()
 def XXS():
         os.system('python xxs.py')
 def SQL():
@@ -46,7 +50,7 @@ def ipdo():
 def exit():
         print('Good Bye')
 def info():
-        os.systen('login')
+        os.system('figlet Sorry && echo It will added soon')
 def ap():
         os.system('php ap.php')
 def word():
@@ -103,12 +107,14 @@ def main():
                 ipdo()
         elif (Sarkari) == '5':
                 ap()
-        elif (Sarkari) == '8':
+        elif (Sarkari) == '9':
                 about()
         elif (Sarkari) == '6':
                 word()
         elif (Sarkari) == '7':
                 up()
+        elif (Sarkari) == '9':
+                whois()
         elif (Sarkari) == '0':
                 exit()
         else:
