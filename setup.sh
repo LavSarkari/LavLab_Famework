@@ -11,4 +11,4 @@ echo '# To Run just Type➡️ LavSarkari     #'
 echo '# From anywhere of your terminal.   #'
 echo '#####################################'
 
-figlet To Run just Type➡️ LavSarkari 
+ 
