@@ -37,8 +37,11 @@ def logo():
 
 def main():
 
-        try:                                                                                                                                                           print ("")                                                                                                                                             target = input(b+'[+]'+w+' Enter an ip address: ') #User Input
-                send_url = 'http://ip-api.com/json/'+target #Finds Targets                                                                                             r = requests.get(send_url)
+        try:                                                                                                                                                           
+                print ("")                                                                                                                                             
+                target = input(b+'[+]'+w+' Enter an ip address: ') #User Input
+                send_url = 'http://ip-api.com/json/'+target #Finds Targets                                                                                            
+                r = requests.get(send_url)
                 j = json.loads(r.text)
                 cn = j['country']
                 cc = j['countryCode']
