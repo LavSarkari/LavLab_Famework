@@ -18,7 +18,7 @@ A Small Famework for noob hackers....
 *More Tools Soon...*
 
 # Installation
-*For Termux*
+**For Termux**
 ```
 apt install git -y
 apt install python -y
@@ -26,14 +26,5 @@ git clone https://github.com/LavSarkari/LavLab_Famework/
 cd LavLab_Famework
 bash setup.sh
 ```
-[Now you can run it by Typing `LavSarkari`]
-
-*For Linux*
-```
-apt install git -y
-apt install python -y
-git clone https://github.com/LavSarkari/LavLab_Famework/
-cd LavLab_Famework
-python LavLab.py
-```
+_[Now you can run it by Typing `LavSarkari`]_
 >***DON'T USE IT FOR ILLIGAL PURPOSE***
