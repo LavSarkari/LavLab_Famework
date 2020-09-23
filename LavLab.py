@@ -35,6 +35,8 @@ def about():
 
         print(about)
         main()
+def speak():
+        os.system("espeak 'Hello sir welcome to LavLab Famework Created by Lav Sarkari '")
 def whois():
         url= input(R+'[+]Target Website: '+G)
         os.system('whois %s' %(url))
@@ -91,6 +93,7 @@ def Main_Menu():
         print (w+"{"+p+"9"+w+"} About us")
         print (w+"{"+p+"0"+w+"} Exit")
         ip()
+        speak()
 #################### main ####################
 
 def main():
@@ -123,5 +126,3 @@ def main():
 
 Main_Menu()
 main()
-
-os.system("espeak 'Hello sir welcome to LavLab Famework Created by Lav Sarkari '")
