@@ -124,4 +124,4 @@ def main():
 Main_Menu()
 main()
 
-os.system('espeak 'Hello sir welcome to LavLab Famework Created by Lav Sarkari ')
+os.system("espeak 'Hello sir welcome to LavLab Famework Created by Lav Sarkari '")
