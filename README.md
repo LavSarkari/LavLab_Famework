@@ -1,3 +1,12 @@
+
+[![Build](https://img.shields.io/badge/LavLab_Famework-blue.svg?maxAge=259200)]()
+[![Stage](https://img.shields.io/badge/Release-Stable-brightgreen.svg)]()
+[![Build](https://img.shields.io/badge/Supported_Android-Linux-orange.svg)]()
+[![Build](https://img.shields.io/badge/Available-Termux-red.svg?maxAge=259200)]()
+[![Build](https://img.shields.io/badge/Language-python-blue.svg?maxAge=259200)]()
+[![Build](https://img.shields.io/badge/contributions-LavLab_Famework-blue.svg?style=flat)]()
+
+
 # LavLab_Famework
 A Small Famework for noob hackers....
 
