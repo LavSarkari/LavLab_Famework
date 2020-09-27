@@ -36,7 +36,7 @@ def about():
         print(about)
         main()
 def speak():
-        os.system("espeak 'Hello sir welcome to LavLab Famework Created by Lav Sarkari '")
+        os.system("espeak 'Hello sir welcome to LavLab Famework Created by Lav Sarkari '&")
 def whois():
         url= input(R+'[+]Target Website: '+G)
         os.system('whois %s' %(url))
