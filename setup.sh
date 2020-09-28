@@ -1,5 +1,5 @@
 cp /data/data/com.termux/files/home/LavLab_Famework/core/LavSarkari /data/data/com.termux/files/usr/bin
-
+pip install requestes
 chmod 777 /data/data/com.termux/files/usr/bin/LavSarkari
 apt install figlet
 apt install espeak
@@ -11,7 +11,4 @@ echo '#####################################'
 echo '# To Run just Type➡️ LavSarkari     #'
 echo '# From anywhere of your terminal.   #'
 echo '#####################################'
-espeak " Now You're setup is ready. To Run Just Type LavSarkari"
-
-
- 
+espeak " Now You're setup is ready. To Run Just Type LavSarkari"&
