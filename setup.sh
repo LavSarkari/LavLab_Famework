@@ -1,9 +1,10 @@
+
 cp /data/data/com.termux/files/home/LavLab_Famework/core/LavSarkari /data/data/com.termux/files/usr/bin
 pip install requestes
 chmod 777 /data/data/com.termux/files/usr/bin/LavSarkari
 apt install figlet
 cd
-cd LavLav_Famework 
+cd LavLab_Famework 
 cd core
 echo Installing SqlMap
 git clone https://github.com/sqlmapproject/sqlmap.git &> /dev//null
