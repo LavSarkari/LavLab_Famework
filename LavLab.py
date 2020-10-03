@@ -82,16 +82,17 @@ def Main_Menu():
         print ("")
         print (w+"{"+B+W+" MAIN MENU "+w+"}")
         print ("")
-        print (w+"{"+p+"1"+w+"} XXS Scanner")
-        print (w+"{"+p+"2"+w+"} SQL Scanner")
-        print (w+"{"+p+"3"+w+"} DOS SScanner")
-        print (w+"{"+p+"4"+w+"} IP Location")
-        print (w+"{"+p+"5"+w+"} Admi Panel Finder")
-        print (w+"{"+p+"6"+w+"} WordList Genreator")
-        print (w+"{"+p+"7"+w+"} Whois Lookup")
-        print (w+"{"+p+"8"+w+"} Update")
-        print (w+"{"+p+"9"+w+"} About us")
-        print (w+"{"+p+"0"+w+"} Exit")
+        print (w+"{"+p+"01"+w+"} XXS Scanner")
+        print (w+"{"+p+"02"+w+"} SQL Scanner")
+        print (w+"{"+p+"03"+w+"} DOS SScanner")
+        print (w+"{"+p+"04"+w+"} IP Location")
+        print (w+"{"+p+"05"+w+"} Admi Panel Finder")
+        print (w+"{"+p+"06"+w+"} WordList Genreator")
+        print (w+"{"+p+"07"+w+"} Whois Lookup")
+        print (w+"{"+p+"08"+w+"} InstaBot")
+        print (w+"{"+p+"09"+w+"} Update")
+        print (w+"{"+p+"10"+w+"} About us")
+        print (w+"{"+p+"00"+w+"} Exit")
         ip()
         speak()
 #################### main ####################
@@ -99,27 +100,29 @@ def Main_Menu():
 def main():
         print (" ")
         Sarkari = input(H+'LavLab»'+w)
-        if Sarkari == 'help':
+        if Sarkari == 'help' or Sarkari == 'Help' or Sarkari == '?':
                 info()
-        elif (Sarkari) == '1':
+        elif (Sarkari) == '1' or Sarkari == '01':
                 XXS()
-        elif (Sarkari) == '2':
+        elif (Sarkari) == '2' or Sarkari == '02':
                 SQL()
-        elif (Sarkari) == '3':
+        elif (Sarkari) == '3' or Sarkari == '03':
                 Dos()
-        elif (Sarkari) == '4':
+        elif (Sarkari) == '4' or Sarkari == '04':
                 ipdo()
-        elif (Sarkari) == '5':
+        elif (Sarkari) == '5' or Sarkari == '05':
                 ap()
-        elif (Sarkari) == '9':
-                about()
-        elif (Sarkari) == '6':
-                word()
-        elif (Sarkari) == '8':
+        elif (Sarkari) == '9' or Sarkari == '09':
                 up()
-        elif (Sarkari) == '7':
+        elif (Sarkari) == '6' or Sarkari == '06':
+                word()
+        elif (Sarkari) == '8' or Sarkari == '08':
+                os.system('bash instabot.sh')
+        elif (Sarkari) == '7' or Sarkari == '07':
                 whois()
-        elif (Sarkari) == '0':
+        elif (Sarkari) == '10':
+                about()
+        elif (Sarkari) == '0' or Sarkari == 'exit' or Sarkari == '00':
                 exit()
         else:
                 main()
