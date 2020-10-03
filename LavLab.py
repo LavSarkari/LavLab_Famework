@@ -44,7 +44,7 @@ def whois():
 def XXS():
         os.system('python xxs.py')
 def SQL():
-        os.system('python sql.py')
+        os.system('cd && cd LavLab_Fammework/core/sqlmap/ && python2 sql.py')
 def Dos():
         os.system('python dos.py')
 def ipdo():
