@@ -102,6 +102,10 @@ def main():
         Sarkari = input(H+'LavLab»'+w)
         if Sarkari == 'help' or Sarkari == 'Help' or Sarkari == '?':
                 info()
+        elif (Sarkari) == 'clear'
+                os.system('clear')
+                Main_menu()
+                main()
         elif (Sarkari) == '1' or Sarkari == '01':
                 XXS()
         elif (Sarkari) == '2' or Sarkari == '02':
@@ -125,6 +129,7 @@ def main():
         elif (Sarkari) == '0' or Sarkari == 'exit' or Sarkari == '00':
                 exit()
         else:
+                os.system('Sarkari')
                 main()
 
 Main_Menu()
