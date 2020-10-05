@@ -69,7 +69,7 @@ def logo():
         | |  ((_)__)((_) |  ((_)_| |(_) 
         | |__/ _` \ V /| |__/ _` | '_ \ 
         |____\__,_|\_/ |____\__,_|_.__/ 
-                    \033[47mTools by- LavSrkari
+                    \033[47mTools by- LavSrkari\033[00m
 
                                          """+F)
         print(Mainlogo)
@@ -102,7 +102,7 @@ def main():
         Sarkari = input(H+'LavLab»'+w)
         if Sarkari == 'help' or Sarkari == 'Help' or Sarkari == '?':
                 info()
-        elif (Sarkari) == 'clear'
+        elif (Sarkari) == 'clear':
                 os.system('clear')
                 Main_menu()
                 main()
