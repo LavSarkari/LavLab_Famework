@@ -122,7 +122,7 @@ def main():
                 word()
         elif (Sarkari) == '8' or Sarkari == '08':
                 os.system('bash instabot.sh')
-        elif (Sarkari) == 'update' os Sarkari == 'up':
+        elif (Sarkari) == 'update' or Sarkari == 'up':
                 up()
         elif (Sarkari) == '7' or Sarkari == '07':
                 whois()
