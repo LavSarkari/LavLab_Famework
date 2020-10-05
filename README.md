@@ -22,6 +22,9 @@
 
 {6} WordList Genreator
 
+{7} InstaBot
+
+
 *More Tools Soon...*
 
 # Installation
