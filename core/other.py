@@ -29,7 +29,7 @@ def menu():
                 print (w+"{"+p+"03"+w+"} Python minicrypto locker")
                 print (w+"{"+p+"04"+w+"} ZIP Password bruteforce")
                 print (w+"{"+p+"05"+w+"} Find Host DNS")
-                print (w+"{"+p+"06"+w+"} Web payload generator \033[47m[Under Construction]\033[00m")
+                print (w+"{"+p+"06"+w+"} Web payload generator "+g+"\033[47m[Under Construction]\033[00m")
                 print (w+"{"+p+"00"+w+"} Back to main menu")
                 print ("")
                 main()
