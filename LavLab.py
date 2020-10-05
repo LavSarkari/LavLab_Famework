@@ -24,7 +24,7 @@ def ip():
 os.chdir('/data/data/com.termux/files/home/LavLab_Famework/core')
 
 def about():
-        about=p+'''
+        about=B+'''
 ####################################################                                                                                                   
 # Tool Name     : LavLab Famework                  #
 # Author        : LavSarkari                       #
@@ -69,7 +69,7 @@ def logo():
         | |  ((_)__)((_) |  ((_)_| |(_) 
         | |__/ _` \ V /| |__/ _` | '_ \ 
         |____\__,_|\_/ |____\__,_|_.__/ 
-                    Tools by- LavSrkari
+                    \033[47mTools by- LavSrkari
 
                                          """+F)
         print(Mainlogo)
@@ -90,7 +90,7 @@ def Main_Menu():
         print (w+"{"+p+"06"+w+"} WordList Genreator")
         print (w+"{"+p+"07"+w+"} Whois Lookup")
         print (w+"{"+p+"08"+w+"} InstaBot")
-        print (w+"{"+p+"09"+w+"} Update")
+        print (w+"{"+p+"09"+w+"} Other Tools")
         print (w+"{"+p+"10"+w+"} About us")
         print (w+"{"+p+"00"+w+"} Exit")
         ip()
@@ -117,7 +117,7 @@ def main():
         elif (Sarkari) == '5' or Sarkari == '05':
                 ap()
         elif (Sarkari) == '9' or Sarkari == '09':
-                up()
+                os.system('python /data/data/com.termux/files/home/LavLab_Famework/core/other.py')
         elif (Sarkari) == '6' or Sarkari == '06':
                 word()
         elif (Sarkari) == '8' or Sarkari == '08':
