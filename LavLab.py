@@ -69,7 +69,7 @@ def logo():
         | |  ((_)__)((_) |  ((_)_| |(_) 
         | |__/ _` \ V /| |__/ _` | '_ \ 
         |____\__,_|\_/ |____\__,_|_.__/ 
-                    \033[47mTools by- LavSrkari\033[00m
+                    \033[47mTools by- LavSarkari\033[00m
 
                                          """+F)
         print(Mainlogo)
