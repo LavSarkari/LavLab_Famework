@@ -29,7 +29,7 @@ def menu():
                 print (w+"{"+p+"03"+w+"} Python minicrypto locker")
                 print (w+"{"+p+"04"+w+"} ZIP Password bruteforce")
                 print (w+"{"+p+"05"+w+"} Find Host DNS")
-                print (w+"{"+p+"06"+w+"} Web payload generator \033[46m[Under Construction]")
+                print (w+"{"+p+"06"+w+"} Web payload generator \033[47m[Under Construction]\033[00m")
                 print (w+"{"+p+"00"+w+"} Back to main menu")
                 print ("")
                 main()
@@ -40,7 +40,7 @@ def menu():
 def main():
         Lab = str(input(r+"LavLab"+w+":"+p+"/others/"+w+"> "))
         if Lab == "back" or Lab == "0" or Lab == "00":
-                sys.exit(1)
+                os.system('LavSarkari')
         elif Lab == "1" or Lab == "01":
                 os.system("python /data/data/com.termux/files/home/LavLab_Famework/core/toolkit/emailsender.py")
         elif Lab == "2" or Lab == "02":
