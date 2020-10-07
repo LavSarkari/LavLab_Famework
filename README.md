@@ -34,7 +34,7 @@ apt install git -y
 apt install python -y
 git clone https://github.com/LavSarkari/LavLab_Famework/
 cd LavLab_Famework
-bash setup.sh
+sudo bash setup.sh
 ```
 _[Now you can run it by Typing `LavSarkari`]_
 >***DON'T USE IT FOR ILLIGAL PURPOSE***
