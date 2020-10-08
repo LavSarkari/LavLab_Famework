@@ -45,8 +45,7 @@
 ## Tools Overview
 | ScreenShot |
 | ------------|
-|![Index](https://github.com/LavSarkari/LavLab_Famework/blob/master/Screenshot_2020-10-08-15-52-27-849_com.termux.jpg)|
-
+|![Index](https://github.com/LavSarkari/LavLab_Famework/blob/master/Screenshot_2020-10-08-16-40-21-452_com.termux.jpg)|
 # Installation
 **For Termux**
 ```
