@@ -43,9 +43,16 @@
 *More Tools Soon...*
 
 ## Tools Overview
-| ScreenShot |
+| Main Menu + Others Menu | 
 | ------------|
 |![Index](https://github.com/LavSarkari/LavLab_Famework/blob/master/Screenshot_2020-10-08-16-40-21-452_com.termux.jpg)|
+
+| Main Menu + InstaBot |
+| ------------|
+|![Index](https://github.com/LavSarkari/LavLab_Famework/blob/master/Screenshot_2020-10-08-20-33-50-231_com.termux.jpg)|
+
+
+
 # Installation
 **For Termux**
 ```
