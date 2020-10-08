@@ -29,7 +29,7 @@ def menu():
                 print (w+"{"+p+"03"+w+"} Python minicrypto locker")
                 print (w+"{"+p+"04"+w+"} ZIP Password bruteforce")
                 print (w+"{"+p+"05"+w+"} Find Host DNS")
-                print (w+"{"+p+"06"+w+"} Web payload generator "+g+"\033[47m[Under Construction]\033[00m")
+                print (w+"{"+p+"06"+w+"} Web payload generator")
                 print (w+"{"+p+"00"+w+"} Back to main menu")
                 print ("")
                 main()
@@ -52,7 +52,7 @@ def main():
         elif Lab == "5" or Lab == "05":
                 os.system("python /data/data/com.termux/files/home/LavLab_Famework/core/toolkit/dns.py")
         elif Lab == '6' or Lab == '06':
-                os.system('echo Its On The Way | lolcat')
+                os.system('python /data/data/com.termux/files/home/LavLab_Famework/core/website.py')
         elif Lab == '0' or Lab == '00':
                 os.system('LavSarkari')
         else:
