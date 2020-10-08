@@ -67,6 +67,7 @@ def Main_Menu():
         logo()
         print ("\033[41m  \033[00m Welcome to the:-"+G+" LavLab framework"+w)
         print ("\033[45m  \033[00m Starting at:-",datetime.today().strftime('%d-%m-%Y Time:- %H:%M:%S'))
+        print ("\033[44m  \033[00m Aithor "+G+"LavSarkari"+w)
         print ("")
         print (w+"{"+B+W+" MAIN MENU "+w+"}")
         print ("")
@@ -87,7 +88,7 @@ def Main_Menu():
 
 def main():
         print (" ")
-        Sarkari = input(H+'LavLab»'+w)
+        Sarkari = input(H+'LavLab» '+w)
         if Sarkari == 'help' or Sarkari == 'Help' or Sarkari == '?':
                 info()
         elif (Sarkari) == 'clear':
