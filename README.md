@@ -8,7 +8,9 @@
 [![Build](https://img.shields.io/badge/Instagram-LavSarkari-blue.svg?style=flat)](https://instagram.com/lav_sarkari)
 
 
-**Feature**
+# Feature
+
+**[Main Menu]**
 
 {1} XXS Scanner
 
@@ -24,6 +26,19 @@
 
 {7} InstaBot
 
+**[Other Menu]**
+
+{01} Email sender
+
+{02} Python logger generator
+
+{03} Python minicrypto locker
+
+{04} ZIP Password bruteforce
+
+{05} Find Host DNS
+
+{06} Web payload generator [Under Construction]
 
 *More Tools Soon...*
 
