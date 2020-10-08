@@ -60,19 +60,7 @@ def word():
 def up():
         os.system('bash up.sh')
 def logo():
-        Mainlogo =(F+ """
-        _ (              (               
-         )\ )           )\ )         )  
-        (()/(    )  )  (()/(    ) ( /(  
-        /(_))( /( /((  /(_))( /( )\()) 
-        (_))  )(_)|_))\(_))  )(_)|(_)\  
-        | |  ((_)__)((_) |  ((_)_| |(_) 
-        | |__/ _` \ V /| |__/ _` | '_ \ 
-        |____\__,_|\_/ |____\__,_|_.__/ 
-                    \033[47mTools by- LavSarkari\033[00m
-
-                                         """+F)
-        print(Mainlogo)
+        os.system('python /data/data/com.termux/files/home/LavLab_Famework/banner.py')
 
 def Main_Menu():
         os.system('clear')
