@@ -38,7 +38,7 @@
 
 {05} Find Host DNS
 
-{06} Web payload generator [Under Construction]
+{06} Web payload generator
 
 *More Tools Soon...*
 
