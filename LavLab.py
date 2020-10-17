@@ -16,7 +16,7 @@ R = '\033[31m'
 def ip():
         import socket
         hostname = socket.gethostname()
-        ip_address = socket.gethostbyname(hostnme)
+        ip_address = socket.gethostbyname(hostname)
 os.chdir('/data/data/com.termux/files/home/LavLab_Famework/core')
 
 def about():
