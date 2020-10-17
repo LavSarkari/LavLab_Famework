@@ -20,7 +20,7 @@ def ip():
         print(G+"_________________________________")
         print("There Is No Place Like")
         print("      127.0.0.1       ")
-        print('___________________________________")
+        print("___________________________________")
 os.chdir('/data/data/com.termux/files/home/LavLab_Famework/core')
 
 def about():
