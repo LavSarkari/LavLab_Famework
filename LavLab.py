@@ -18,9 +18,9 @@ def ip():
         hostname = socket.gethostname()
         ip_address = socket.gethostbyname(hostname)
         print(G+"_________________________________")
-        print(f"Your Hostname: {hostname}")
-        print(f"Your LocalHost: {ip_address}")
-        print('_________________________________')
+        print("There Is No Place Like")
+        print("      127.0.0.1       ")
+        print('___________________________________")
 os.chdir('/data/data/com.termux/files/home/LavLab_Famework/core')
 
 def about():
