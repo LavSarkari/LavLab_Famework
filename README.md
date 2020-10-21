@@ -3,7 +3,7 @@
 [![Build](https://img.shields.io/badge/LavLab_Famework-1.3-blue.svg?maxAge=259200)](https://github.com/LavSarkari/LavLab_Famework)
 [![Build](https://img.shields.io/badge/Supported_Android-Linux-orange.svg)]()
 [![Build](https://img.shields.io/badge/Available-Termux-red.svg?maxAge=259200)](termux.com)
-[![Build](https://img.shields.io/badge/Language-python-blue.svg?maxAge=259200)](python.org)
+[![Build](https://img.shields.io/badge/Main_Language-python-blue.svg?maxAge=259200)](python.org)
 [![Build](https://img.shields.io/badge/GitHub-LavSarkari-blue.svg?style=flat)](https://github.com/LavSarkari)
 [![Build](https://img.shields.io/badge/Instagram-Cyber_Tantrik-blue.svg?style=flat)](https://instagram.com/cyber_tantrik)
 
