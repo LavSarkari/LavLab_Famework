@@ -30,6 +30,7 @@ def menu():
                 print (w+"{"+p+"04"+w+"} ZIP Password bruteforce")
                 print (w+"{"+p+"05"+w+"} Find Host DNS")
                 print (w+"{"+p+"06"+w+"} Web payload generator")
+                print (w+"{"+p+"07"+w+"} Instagram bruteforce")
                 print (w+"{"+p+"00"+w+"} Back to main menu")
                 print ("")
                 main()
@@ -55,6 +56,29 @@ def main():
                 os.system('python /data/data/com.termux/files/home/LavLab_Famework/core/website.py')
         elif Lab == '0' or Lab == '00':
                 os.system('LavSarkari')
+        elif Lab == "7" or dog == "7":
+                os.system("tor &> /dev/null &")
+                print ("")
+                user = str(input(b+"[+]"+w+" Username target: "))
+                if user == "" or user == " ":
+                        print ("")
+                        print (r+"[!ERROR]"+w+" username not found!")
+                        print ("")
+                        sys.exit(1)
+                else:
+                        user = user
+                        pass
+                wordlist = str(input(b+"[+]"+w+" Wordlist path: "))
+                if wordlist == "" or wordlist == " ":
+                        print ("")
+                        print (r+"[!ERROR]"+w+" wordlist not found!")
+                        print ("")
+                        sys.exit(1)
+                else:
+                        wordlist = wordlist
+                        pass
+                print ("")
+                os.system('python instagram.py -u '+user+' -w '+wordlist+' -p proxys.txt -d -v')
         else:
                 main()
 
