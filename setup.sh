@@ -8,7 +8,8 @@ cd LavLab_Famework
 cd core
 echo Installing SqlMap
 git clone https://github.com/sqlmapproject/sqlmap.git &> /dev//null
-apt install espeak
+apt install espeak -y
+apt install root-repo -y
 echo -e "\e[32mGreen"
 clear
 figlet Installation Completed...
