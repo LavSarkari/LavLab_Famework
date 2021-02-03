@@ -10,6 +10,7 @@ echo Installing SqlMap
 git clone https://github.com/sqlmapproject/sqlmap.git &> /dev//null
 apt install espeak -y
 apt install root-repo -y
+apt install hping3
 echo -e "\e[32mGreen"
 clear
 figlet Installation Completed...
