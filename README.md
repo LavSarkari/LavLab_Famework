@@ -20,9 +20,9 @@
                                                               
 {4} IP Location
 
-{5} Admi Panel Finder
+{5} Admin Panel Finder
 
-{6} WordList Genreator
+{6} WordList Generator
 
 {7} InstaBot
 
